@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <title>Dados
+    </title>
+</head>
+
+<body class="body">
+    <section>
+        <div class="row justify-content-center">
+
+            <!--TITULO DEL CASINO-->
+            <div class="col-xs-8 div-titulo">
+                <h2 class="titulo ">Casino</h2>
+                <p class="slogan">Bienvenido a Las Vegas</p>
+            </div>
+
+            <!--BILLETERA-->
+            <div class="col-xs-4 ba">
+                <div class="cuadro-billetera container">
+                    <img class="icono-billetera mx-auto d-block"
+                        src="https://cdn-icons-png.flaticon.com/512/3258/3258446.png" a alt="billetera">
+                    <p class="texto-billetera text-center dineroIner"></p>
+                </div>
+            </div>
+            <!--NAV DEL CASINO-->
+            <div class="col-xs-12 ">
+                <div>
+                    <nav>
+                        <a href="#">Perfil</a>
+                        <a href="#">Tienda</a>
+                        <a href="#">Billetera</a>
+                        <div class="animation start-home"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <!--ELECCION DE CANTIDAD DE DINERO-->
+            <div class="col-xs-12 div-subtitulo">
+                <p class="subtitulo">¿CUÁNTO DESEAS APOSTAR?</p>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros container justify-content-center">
+                    <div class="apuesta a100">
+                        <button type="button" class="btn btn-warning p_apuesta"">$100</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros container">
+                    <div class="apuesta a500">
+                        <button type="button" class="btn btn-warning p_apuesta"">$500</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros container">
+                    <div class="apuesta a1000">
+                        <button type="button" class="btn btn-warning p_apuesta"">$1000</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--ELECCION DE NUMEROS-->
+            <div class="col-xs-12 div-subtitulo">
+                <p class="subtitulo">ELIGE TU NUMERO</p>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros justify-content-center">
+                    <div class="numero n1">
+                        <button type="button" class="btn btn-outline-primary boton-numero">1</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros justify-content-center">
+                    <div class="numero n2">
+                        <button type="button" class="btn btn-outline-secondary boton-numero">2</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros justify-content-center">
+                    <div class="numero n3">
+                        <button type="button" class="btn btn-outline-success boton-numero">3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros justify-content-center">
+                    <div class="numero n4">
+                        <button type="button" class="btn btn-outline-danger boton-numero">4</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros justify-content-center">
+                    <div class="numero n5">
+                        <button type="button" class="btn btn-outline-warning boton-numero">5</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 row justify-content-center">
+                <div class="cuadro-numeros justify-content-center">
+                    <div class="numero n6">
+                        <button type="button" class="btn btn-outline-info boton-numero">6</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 row justify-content-center">
+                <div class="cuadro-dado justify-content-center">
+                    <img class="dado" src="dado1.png">
+                </div>
+            </div>
+            <div class="col-xs-12 row justify-content-center">
+                <div class="cuadro-dado justify-content-center">
+                    <h4 class="resultado"></h4>
+                </div>
+            </div>
+            <div class="col-xs-12 row justify-content-center">
+                <div class="cuadro-dado justify-content-center">
+                    <h5 class="premio"></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
